@@ -6,11 +6,11 @@ public class DoubleExam {
 		boolean stop = true ; 
 		
 		if(stop) {
-			System.out.println("ÁßÁöÇÕ´Ï´Ù.");	
+			System.out.println("ì¤‘ì§€í•©ë‹ˆë‹¤.");	
 		} else {
-			System.out.println("Ãâ¹ßÇÕ´Ï´Ù.");
-		} // else¹® Á¾·á
+			System.out.println("ì¶œë°œí•©ë‹ˆë‹¤.");
+		} // elseë¬¸ ì¢…ë£Œ
 
-	} // ¸ŞÀÎ ¸Ş¼Òµå Á¾·á
+	} // ë©”ì¸ ë©”ì†Œë“œ ì¢…ë£Œ
 
-} // Å¬·¡½º Á¾·á
+} // í´ë˜ìŠ¤ ì¢…ë£Œ

@@ -4,20 +4,20 @@ public class TypeChangeExam {
 
 	public static void main(String[] args) {
 		byte byteValue = 10 ;
-		int intValue = byteValue ; // ÀÚµ¿Å¸ÀÔº¯È¯
-		System.out.println(intValue);  // 10ÀÌ Ãâ·Â
-		// byte byteValue1 = intValue ; Å« Å¸ÀÔ¿¡¼­ ÀÛÀº Å¸ÀÔÀº ¿À·ù
+		int intValue = byteValue ; // ìë™íƒ€ì…ë³€í™˜
+		System.out.println(intValue);  // 10ì´ ì¶œë ¥
+		// byte byteValue1 = intValue ; í° íƒ€ì…ì—ì„œ ì‘ì€ íƒ€ì…ì€ ì˜¤ë¥˜
 		
-		char charValue = '°¡' ;
+		char charValue = 'ê°€' ;
 		intValue = charValue ;
-		System.out.println("°¡ÀÇ À¯´ÏÄÚµå °ª : " + intValue);
+		System.out.println("ê°€ì˜ ìœ ë‹ˆì½”ë“œ ê°’ : " + intValue);
 		
 		intValue = 500;
-		long longValue = intValue ; // int(4)¸¦ Å« Å¸ÀÔÀÎ long(8)·Î º¯È¯
+		long longValue = intValue ; // int(4)ë¥¼ í° íƒ€ì…ì¸ long(8)ë¡œ ë³€í™˜
 		System.out.println(longValue);
 		
 		intValue = 200 ;
-		double doubleValue = intValue ; //int(4)¸¦ Å« Å¸ÀÔÀÎ double(8)·Î º¯È¯
+		double doubleValue = intValue ; //int(4)ë¥¼ í° íƒ€ì…ì¸ double(8)ë¡œ ë³€í™˜
 		System.out.println(doubleValue);
 
 	}

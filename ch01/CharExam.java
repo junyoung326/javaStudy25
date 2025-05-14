@@ -3,9 +3,9 @@ package ch01;
 public class CharExam {
 
 	public static void main(String[] args) {
-		char c1 = 'A' + 1 ; // 65+1 -> charÅ¸ÀÔÀ¸·Î ³Ñ¾î°£´Ù ->B
-		char c2 = 'A' ; // 65 -> charÅ¸ÀÔÀ¸·Î c2·Î »ı¼º
-		//char c3 = c2 + 1 ; c2°¡ charÅ¸ÀÔÀ¸·Î 1À» ´õÇÏ·Á°í Çß´Âµ¥ int·Î °è»ê
+		char c1 = 'A' + 1 ; // 65+1 -> charíƒ€ì…ìœ¼ë¡œ ë„˜ì–´ê°„ë‹¤ ->B
+		char c2 = 'A' ; // 65 -> charíƒ€ì…ìœ¼ë¡œ c2ë¡œ ìƒì„±
+		//char c3 = c2 + 1 ; c2ê°€ charíƒ€ì…ìœ¼ë¡œ 1ì„ ë”í•˜ë ¤ê³  í–ˆëŠ”ë° intë¡œ ê³„ì‚°
 		char c3 = (char)(c2+1); 
 		// char c4 = c2 + 1
 		

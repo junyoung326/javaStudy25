@@ -7,20 +7,20 @@ public class VariableExam {
 		int mach ;
 		int distance ;
 		mach = 340 ;
-		distance = mach * 60 * 60; // À½¼Ó m/s·Î °è»êÇÔ
+		distance = mach * 60 * 60; // ìŒì† m/së¡œ ê³„ì‚°í•¨
 		
-		System.out.println("¼Ò¸®°¡ 1½Ã°£µ¿¾È °¡´Â °Å¸®");
+		System.out.println("ì†Œë¦¬ê°€ 1ì‹œê°„ë™ì•ˆ ê°€ëŠ” ê±°ë¦¬");
 		System.out.println(distance + "m");
 		
-		double radius ; // ½Ç¼ö Å¸ÀÔÀÇ radius º¯¼ö ¼±¾ğ
-		double area ;   // ½Ç¼ö Å¸ÀÔÀÇ area º¯¼ö ¼±¾ğ
-		// ½Ç¼ö Å¸ÀÔÀº ¼Ò¼öÁ¡ÀÌ ÀÖ´Ù.
+		double radius ; // ì‹¤ìˆ˜ íƒ€ì…ì˜ radius ë³€ìˆ˜ ì„ ì–¸
+		double area ;   // ì‹¤ìˆ˜ íƒ€ì…ì˜ area ë³€ìˆ˜ ì„ ì–¸
+		// ì‹¤ìˆ˜ íƒ€ì…ì€ ì†Œìˆ˜ì ì´ ìˆë‹¤.
 		
-		radius = 10 ; // ÃÊ±â°ªÀÌ Á¤¼öÀÌÁö¸¸ ½Ç¼öÅ¸ÀÔÀ¸·Î º¯°æµÊ
-		area = radius * radius * 3.14 ; // ¿øÀÇ ³ĞÀÌ °è»ê
+		radius = 10 ; // ì´ˆê¸°ê°’ì´ ì •ìˆ˜ì´ì§€ë§Œ ì‹¤ìˆ˜íƒ€ì…ìœ¼ë¡œ ë³€ê²½ë¨
+		area = radius * radius * 3.14 ; // ì›ì˜ ë„“ì´ ê³„ì‚°
 		
-		System.out.print("¹İÁö¸§ÀÌ " + radius + " ÀÎ"); 
-		System.out.println(" ¿øÀÇ ³ĞÀÌ :" + area);
+		System.out.print("ë°˜ì§€ë¦„ì´ " + radius + " ì¸"); 
+		System.out.println(" ì›ì˜ ë„“ì´ :" + area);
 		
 		
 	}

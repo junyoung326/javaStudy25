@@ -4,20 +4,20 @@ public class CastingExam {
 
 	public static void main(String[] args) {
 		int intValue = 100 ;
-		byte byteValue = (byte) intValue ; // int(4) -> byte(1) °­Á¦Å¸ÀÔº¯È¯
+		byte byteValue = (byte) intValue ; // int(4) -> byte(1) ê°•ì œíƒ€ìž…ë³€í™˜
 		System.out.println(intValue);
 		System.out.println(byteValue);
 		
 		intValue = 44032 ;
-		char charValue = (char)	intValue; // int(4) -> char(2) °­Á¦Å¸ÀÔº¯È¯
+		char charValue = (char)	intValue; // int(4) -> char(2) ê°•ì œíƒ€ìž…ë³€í™˜
 		System.out.println(charValue);
 		
 		double doubleValue = 3.14 ;
-		intValue = (int)doubleValue; //double(8) -> int(4) °­Á¦Å¸ÀÔº¯È¯
+		intValue = (int)doubleValue; //double(8) -> int(4) ê°•ì œíƒ€ìž…ë³€í™˜
 		System.out.println(intValue);
 		
 		int i = 128 ;
-		byte b = (byte) i ; // int¸¦ byte·Î °­Á¦Å¸ÀÔº¯È¯
+		byte b = (byte) i ; // intë¥¼ byteë¡œ ê°•ì œíƒ€ìž…ë³€í™˜
 		System.out.println(b);
 		
 		System.out.println("======================");

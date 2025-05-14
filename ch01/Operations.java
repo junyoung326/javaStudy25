@@ -3,14 +3,14 @@ package ch01;
 public class Operations {
 
 	public static void main(String[] args) {
-		int x = -100;  //À½¼ö 100À» x¿¡ ³Ö´Â´Ù.
-		int result1 = +x ;  //À½¼ö¿¡ +ºÎÈ£°¡ ºÙ¾î¼­ ºÎÈ£°¡ À¯ÁöµÈ´Ù.
-		int result2 = -x ;   // À½¼ö¿¡ -ºÎÈ£°¡ ºÙ¾î¼­ ºÎÈ£°¡ º¯°æµÈ´Ù.
+		int x = -100;  //ìŒìˆ˜ 100ì„ xì— ë„£ëŠ”ë‹¤.
+		int result1 = +x ;  //ìŒìˆ˜ì— +ë¶€í˜¸ê°€ ë¶™ì–´ì„œ ë¶€í˜¸ê°€ ìœ ì§€ëœë‹¤.
+		int result2 = -x ;   // ìŒìˆ˜ì— -ë¶€í˜¸ê°€ ë¶™ì–´ì„œ ë¶€í˜¸ê°€ ë³€ê²½ëœë‹¤.
 		System.out.println(result1);
 		System.out.println(result2);
 		
 		short s = 100 ;
-		// short result3 = -s ; °è»ê¿¡ ±âº»Å¸ÀÔÀº intÀÌ±â ¶§¹®¿¡ ¿À·ù
+		// short result3 = -s ; ê³„ì‚°ì— ê¸°ë³¸íƒ€ì…ì€ intì´ê¸° ë•Œë¬¸ì— ì˜¤ë¥˜
 		int result3 = -s ;
 		System.out.println(result3);
 		
@@ -30,12 +30,12 @@ public class Operations {
 		System.out.println("-----------------------");
 		int z = 10 ;
 		int x2 = 10 ;
-		z = x2++ ; // x°ªÀ» z¿¡ ³Ö°í x¸¦ 1Áõ°¡ ½ÃÅ²´Ù.
+		z = x2++ ; // xê°’ì„ zì— ë„£ê³  xë¥¼ 1ì¦ê°€ ì‹œí‚¨ë‹¤.
 		System.out.println("z = " + z);
 		System.out.println("x2 = " + x2);
 		
 		System.out.println("-----------------------");
-		boolean play = true ; // Âü°ªÀ» »ğÀÔ
+		boolean play = true ; // ì°¸ê°’ì„ ì‚½ì…
 		System.out.println(play);
 		
 		play = !play;
@@ -48,23 +48,23 @@ public class Operations {
 		int v1 = 5 ;
 		int v2 = 2;
 		int result11 = v1 + v2 ;
-		System.out.println("result11 = " + result11); //int Å¸ÀÔÀÇ 7
+		System.out.println("result11 = " + result11); //int íƒ€ì…ì˜ 7
 		
 		int result22 = v1 - v2 ;
-		System.out.println("result22 = " + result22); //int Å¸ÀÔÀÇ 3
+		System.out.println("result22 = " + result22); //int íƒ€ì…ì˜ 3
 		
 		int result33 = v1 * v2 ;
-		System.out.println("result33 = " + result33); //int Å¸ÀÔÀÇ 10
+		System.out.println("result33 = " + result33); //int íƒ€ì…ì˜ 10
 		
 		int result44 = v1 / v2 ;
-		System.out.println("result44 = " + result44); //int Å¸ÀÔÀÇ 2
+		System.out.println("result44 = " + result44); //int íƒ€ì…ì˜ 2
 		
 		int result55 = v1 % v2 ;
-		System.out.println("result55 = " + result55); //int Å¸ÀÔÀÇ 1
+		System.out.println("result55 = " + result55); //int íƒ€ì…ì˜ 1
 		
 		double result66 = (double) v1 / v2 ;
-		System.out.println("result66 = " + result66); //int Å¸ÀÔÀÇ 2.5
+		System.out.println("result66 = " + result66); //int íƒ€ì…ì˜ 2.5
 
-	} // ¸ŞÀÎ ¸Ş¼­µå Á¾·á
+	} // ë©”ì¸ ë©”ì„œë“œ ì¢…ë£Œ
 
-} // Å¬·¡½º Á¾·á
+} // í´ë˜ìŠ¤ ì¢…ë£Œ

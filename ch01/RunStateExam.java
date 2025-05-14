@@ -4,16 +4,16 @@ public class RunStateExam {
 
 	public static void main(String[] args) {
 
-		int x = 1 ; // Á¤¼öÅ¸ÀÔÀÇ xº¯¼ö¿¡ 1À» ³Ö´Â´Ù.
-		int y = 2 ; // Á¤¼öÅ¸ÀÔÀÇ yº¯¼ö¿¡ 2¸¦ ³Ö´Â´Ù.
+		int x = 1 ; // ì •ìˆ˜íƒ€ì…ì˜ xë³€ìˆ˜ì— 1ì„ ë„£ëŠ”ë‹¤.
+		int y = 2 ; // ì •ìˆ˜íƒ€ì…ì˜ yë³€ìˆ˜ì— 2ë¥¼ ë„£ëŠ”ë‹¤.
 		int result = x + y ;
-		// Á¤¼öÅ¸ÀÔÀÇ result º¯¼ö¿¡ xº¯¼ö¿Í yº¯¼ö¸¦ ´õÇØ ³Ö´Â´Ù.
+		// ì •ìˆ˜íƒ€ì…ì˜ result ë³€ìˆ˜ì— xë³€ìˆ˜ì™€ yë³€ìˆ˜ë¥¼ ë”í•´ ë„£ëŠ”ë‹¤.
 		
 		System.out.println(" x + y = " + result);
 		
-		// sysout ctrl + spacebar ÀÚµ¿¿Ï¼º
-		// consoleÃ¢¿¡ °á°ú¸¦ Ãâ·ÂÇÑ´Ù.
+		// sysout ctrl + spacebar ìë™ì™„ì„±
+		// consoleì°½ì— ê²°ê³¼ë¥¼ ì¶œë ¥í•œë‹¤.
 		
-	} // main ¸Ş¼­µå Á¾·á
+	} // main ë©”ì„œë“œ ì¢…ë£Œ
 
-} // RunStateExam Å¬·¡½º Á¾·á
+} // RunStateExam í´ë˜ìŠ¤ ì¢…ë£Œ
