@@ -2,8 +2,6 @@ package ch04.marioKart.dto;
 
 import java.util.Scanner;
 
-import ch04.marioKart.TrackDTO;
-
 public class MemberDTO {
 	// 필드
 	public String id;
